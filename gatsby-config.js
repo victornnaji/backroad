@@ -6,6 +6,11 @@
 
 module.exports = {
   /* Your site config here */
+  siteMetadata: {
+    title: `BackRoads`,
+    description: `Explore awesome tours with friends and family.`,
+    author: `@nnajivictorr`,
+  },
   plugins: [
     {
       resolve: `gatsby-plugin-sass`,
