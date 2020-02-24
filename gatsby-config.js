@@ -21,6 +21,13 @@ module.exports = {
         sassRuleModulesTest: /\.mod\.s(a|c)ss$/,
       },
     },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `images`,
+        path: `${__dirname}/src/images/`,
+      },
+    },
     `gatsby-plugin-styled-components`,
   ]
 }
